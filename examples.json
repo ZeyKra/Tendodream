@@ -1,0 +1,56 @@
+{
+    "ban": [{
+        "description": "Commande permettant de bannir un utilisateur",
+        "utilisation": "{prefix}ban <utilisateur> (raison)",
+        "example": "{prefix}ban @Méchant Insultes répétitives",
+        "permission": "BAN_MEMBERS"
+    }],
+    "bitly": [{
+        "description": "Commande permettant de raccoucir un lien",
+        "utilisation": "{prefix}bilty <lien>",
+        "example": "{prefix}bitly https://example.com",
+        "permission": "Aucune requise"
+    }],
+    "clear": [{
+        "description": "Commande permettant de supprimer un nombre précis de messages",
+        "utilisation": "{prefix}clear <nombre>",
+        "example": "{prefix}clear 15",
+        "permission": "MANAGE_MESSAGES"
+    }],
+    "example": [{
+        "description": "Commande permettant de s'informer sur le fonctionnement des autres commandes",
+        "utilisation": "{prefix}example <commande>",
+        "example": "{prefix}example talk",
+        "permission": "Aucune requise"
+    }],
+    "kick": [{
+        "description": "Commande permettant d'expulser un utilisateur",
+        "utilisation": "{prefix}kick <utilisateur> (raison)",
+        "example": "{prefix}kick @Méchant spam",
+        "permission": "KICK_MEMBERS"
+    }],
+    "ping": [{
+        "description": "Commande permettant de connaitre le ping du bot",
+        "utilisation": "{prefix}ping",
+        "example": "{prefix}ping",
+        "permission": "Aucune requise"
+    }],
+    "reload": [{
+        "description": "Commande permettant de recharger d'autres commandes",
+        "utilisation": "{prefix}reload <commande>",
+        "example": "{prefix}reload ban",
+        "permission": "ADMINISTRATOR"
+    }],
+    "stats": [{
+        "description": "Commande permettant d'expulser un utilisateur",
+        "utilisation": "{prefix}stats <serveur> <pseudo> <jeux>",
+        "example": "{prefix}stats ZeyKra_ skywars",
+        "permission": "Aucune requise"
+    }],
+    "talk": [{
+        "description": "Commande permettant d'expulser un utilisateur",
+        "utilisation": "{prefix}talk <language> <text>",
+        "example": "{prefix}talk fr J'adore le kebab",
+        "permission": "Aucune requise"
+    }]
+}

@@ -1,0 +1,24 @@
+{
+    "name": "tendodream",
+    "version": "1.0.0",
+    "description": "Bot pour la tendodream",
+    "main": "n-index.js",
+    "scripts": {
+        "run": "node index.js"
+    },
+    "author": "ZeyKra_",
+    "license": "ISC",
+    "dependencies": {
+        "bitly": "^7.1.0",
+        "canvas": "^2.6.1",
+        "color-thief": "^2.2.5",
+        "discord.js": "^12.4.0",
+        "fs": "0.0.1-security",
+        "got": "^11.8.0",
+        "lowdb": "^1.0.0",
+        "mc-stats": "^1.0.7",
+        "minecraft-api": "0.0.3",
+        "splashy": "^5.0.2",
+        "text-to-mp3": "^1.0.4"
+    }
+}
